@@ -142,9 +142,10 @@ out = "LAMMPS Description\n\n"\
     + "       " + str(nangletypes) + " angle types\n"\
     + "       " + str(ndihedraltypes) + " dihedral types\n"\
     + "\n"\
-    + "0 " + str(box) + " xlo xhi"\
-    + "0 " + str(box) + " ylo yhi"\
-    + "0 " + str(box) + " zlo zhi"\
+    + "0 " + str(box) + " xlo xhi\n"\
+    + "0 " + str(box) + " ylo yhi\n"\
+    + "0 " + str(box) + " zlo zhi\n"\
+    + "\n"
 
 #Atoms
 out += "\nAtoms\n\n"
